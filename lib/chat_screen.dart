@@ -53,8 +53,9 @@ class _ChatScreenState extends State<ChatScreen> {
 
   void _sendLocation() async {
     LocationData _locationData = await location.getLocation();
+    String googleMapsUrl = 'https://www.google.com/maps/search/?api=1&query=${_locationData.latitude},${_locationData.longitude}';
     FirebaseFirestore.instance.collection('chats').add({
-      'text': 'Tu ubicación: ${_locationData.latitude}, ${_locationData.longitude}',
+      'text': '$googleMapsUrl',
       'createdAt': Timestamp.now(),
     });
   }
@@ -75,7 +76,7 @@ class _ChatScreenState extends State<ChatScreen> {
       context: context,
       builder: (context) {
         return AlertDialog(
-          title: Text('Aqui puedes editar el mensaje'),
+          title: Text('Aquí puedes editar el mensaje'),
           content: TextField(
             controller: editController,
             decoration: InputDecoration(labelText: 'Mensaje'),
@@ -134,7 +135,7 @@ class _ChatScreenState extends State<ChatScreen> {
                 }
                 if (!chatSnapshot.hasData || chatSnapshot.data!.docs.isEmpty) {
                   return Center(
-                    child: Text('Envia un mensaje.'),
+                    child: Text('Envía un mensaje.'),
                   );
                 }
                 final chatDocs = chatSnapshot.data!.docs;

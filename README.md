@@ -1,5 +1,7 @@
 # Chat flutter
-
+##Integrantes
+### Brandon Sandoval
+### Andrew Vilcacundo
 ## Enunciado
 ### Implementar una aplicación tipo chat que permita enviar mensajes y también la ubicación.
 ## Descripción

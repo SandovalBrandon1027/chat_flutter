@@ -13,10 +13,10 @@
 ### Backend: Firebase Realtime Database
 ### Autenticación: Firebase Authentication
 ### Hosting: Firebase Hosting
-##Instalación y configuración
+## Instalación y configuración
 ### Prerrequisitos
-### Node.js y npm instalados
-### Cuenta de Firebase configurada
+#### Node.js y npm instalados
+#### Cuenta de Firebase configurada
 
 
 

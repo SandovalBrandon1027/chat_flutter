@@ -5,9 +5,14 @@
 ## Descripción
 ### Esta es una aplicación de chat que permite a los usuarios enviar mensajes y compartir su ubicación. La aplicación está implementada tanto para la web como para dispositivos móviles, con el despliegue en Firebase.
 ## Características
-### Mensajería en tiempo real: Envío y recepción de mensajes instantáneos.
-Compartir ubicación: Los usuarios pueden enviar su ubicación actual.
-Despliegue multiplataforma: Disponible en la web y en dispositivos móviles.
+### Mensajería en tiempo real: Envío y recepción de mensajes instantáneos. Compartir ubicación: Los usuarios pueden enviar su ubicación actual. Despliegue multiplataforma: Disponible en la web y en dispositivos móviles.
+## Tecnologías utilizadas
+### Frontend:
+### Web: HTML, CSS, JavaScript
+### Móvil: Flutter/Dart (puedes ajustar según tu tecnología móvil)
+### Backend: Firebase Realtime Database
+### Autenticación: Firebase Authentication
+### Hosting: Firebase Hosting
 
 
 

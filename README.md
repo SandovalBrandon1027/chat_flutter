@@ -14,9 +14,9 @@
 ### Autenticación: Firebase Authentication
 ### Hosting: Firebase Hosting
 ## Instalación y configuración
-### Prerrequisitos
-#### Node.js y npm instalados
-#### Cuenta de Firebase configurada
+### Deploy web: 
+https://fir-codelad.web.app
+
 
 
 

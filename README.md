@@ -1,5 +1,5 @@
 # Chat flutter
-##Integrantes
+## Integrantes
 ### Brandon Sandoval
 ### Andrew Vilcacundo
 ## Enunciado
